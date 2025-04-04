@@ -1,0 +1,38 @@
+/* Définition de la police par défaut */
+body {
+    background-color: whitesmoke;
+    padding-left: 10px;
+    font-family: 'Arial', sans-serif; /* Police simple et lisible */
+    color: #333;                      /* Couleur du texte */
+    line-height: 1.6;                 /* Espacement entre les lignes */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;                    /* Centrer le contenu verticalement */
+}
+
+/* Conteneur principal */
+.container {
+    padding: 20px;                    /* Espacement autour du texte */
+    border-radius: 8px;               /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère pour un effet de profondeur */
+    width: 80%;
+    max-width: 600px;                 /* Largeur maximale du conteneur */
+}
+
+/* Style pour le titre */
+h1 {
+    color: #2c3e50;                   /* Couleur sombre pour le titre */
+    text-align: center;               /* Centrer le titre */
+    font-size: 2.5rem;                /* Taille du titre */
+    margin-bottom: 20px;              /* Espacement sous le titre */
+}
+
+/* Style pour le paragraphe */
+p {
+    font-size: 1rem;                  /* Taille de police standard */
+    color: #555;                      /* Texte légèrement plus clair pour le paragraphe */
+    text-align: justify;              /* Justifier le texte */
+    margin-bottom: 20px;              /* Espacement sous le paragraphe */
+}
